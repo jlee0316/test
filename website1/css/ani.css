@@ -1,0 +1,142 @@
+#visual .main-banner li:nth-child(1) {
+    animation: ani1 20s linear infinite;
+}
+#visual .main-banner li:nth-child(2) {
+    animation: ani2 20s linear infinite;
+}
+#visual .main-banner li:nth-child(3) {
+    animation: ani3 20s linear infinite;
+}
+#visual .main-banner li:nth-child(4) {
+    animation: ani4 20s linear infinite;
+}
+@keyframes ani1 {
+    0%,
+    20% {
+        left: 0;
+    }
+    25%,
+    45% {
+        left: -100%;
+    }
+    50%,
+    70% {
+        left: 100%;
+    }
+    75%,
+    95% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes ani2 {
+    0%,
+    20% {
+        left: 100%;
+    }
+    25%,
+    45% {
+        left: 0;
+    }
+    50%,
+    70% {
+        left: -100%;
+    }
+    75%,
+    95% {
+        left: 100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+@keyframes ani3 {
+    0%,
+    20% {
+        left: 100%;
+    }
+    25%,
+    45% {
+        left: 100%;
+    }
+    50%,
+    70% {
+        left: 0;
+    }
+    75% {
+        left: -100%;
+    }
+    75.1% {
+        left: 100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes ani4 {
+    0%,
+    20% {
+        left: 100%;
+    }
+    25%,
+    45% {
+        left: 100%;
+    }
+    50%,
+    70% {
+        left: 100%;
+    }
+    75%,
+    95% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+#visual .main-banner li .txt-box h2 span {
+    animation: aniH2 20s linear infinite;
+}
+#visual .main-banner li:nth-child(1) .txt-box h2 span {
+    animation-delay: 0s;
+}
+#visual .main-banner li:nth-child(2) .txt-box h2 span {
+    animation-delay: 5s;
+}
+#visual .main-banner li:nth-child(3) .txt-box h2 span {
+    animation-delay: 10s;
+}
+#visual .main-banner li:nth-child(4) .txt-box h2 span {
+    animation-delay: 15s;
+}
+
+@keyframes aniH2 {
+    0% {
+        transform: translateY(100%);
+    }
+    3% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+#visual .main-banner li:nth-child(1) .txt-box p span {
+}
+#visual .main-banner li:nth-child(2) .txt-box p span {
+}
+#visual .main-banner li:nth-child(3) .txt-box p span {
+}
+#visual .main-banner li:nth-child(4) .txt-box p span {
+}
